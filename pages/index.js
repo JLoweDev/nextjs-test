@@ -8,7 +8,7 @@ export default function Home({articles}) {
         <meta name='keywords' content='web development, programming'/>
       </Head>
 
-      {articles.map(article => <h3>{article.title}</h3>)}
+      {articles.map((article) => (<h3>{article.title}</h3>))}
     </div>
   )
 }
